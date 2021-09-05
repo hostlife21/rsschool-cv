@@ -36,6 +36,7 @@ function rentalCarCost(days){
     return days * costPerDay - discount;
 }
 ``` 
+
 ## _Languages_
 ___
 * Russian
