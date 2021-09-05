@@ -1,1 +1,1 @@
-# rsschool-cv
+https://hostlife21.github.io/rsschool-cv/cv
