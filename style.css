@@ -1,0 +1,107 @@
+
+body {
+    background-color: rgb(202, 173, 163);}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+  .footer_github {
+    float: left; /* блок занимает ширину содержимого, max-width её ограничивает */
+  max-width: 8em;
+  min-height: 2em;
+    width: 32px;
+    height: 32px;
+    background-image: url("../img/github-logo.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  .footer_rsschool {
+    justify-self: end;
+    height: 32px;
+    float: right; /* блок занимает ширину содержимого, max-width её ограничивает */
+  max-width: 8em;
+  min-height: 2em;
+
+
+  }
+  .center_n{
+      text-align: center;
+  }
+@media(max-width:861px) {
+    .for-large-screens  {
+      display:none;
+      
+    }
+    .mobile_table-style{
+        width: 50%;
+        height: 800px;
+        margin: auto;
+    }
+    .mobile_table-information{
+        width: 250px;
+        background-color:#1c2833 ;
+        color:white;
+        padding:20px;
+    }
+    .img_resume_image{
+        border-radius:50%;
+        width: 220px;
+    }
+    .cod_mobile{
+        background-color: rgb(223, 224, 224); 
+        padding:20px; 
+        color: black;
+        
+    }
+    
+    h1, h2{
+        text-align: center;
+    }
+}
+
+@media(min-width:860px) {
+    .for-small-screens {
+      display:none;
+    }
+    .table-style{
+        width: 700px;
+        height: 800px;
+        margin: auto;
+       
+    }
+    
+    .table-information{
+        width: 250px;
+        background-color:#1c2833 ;
+        color:white;
+        padding:20px;
+        
+    }
+    .table_content{
+        width:450px; 
+        background-color: #FDFEFE;
+        padding:10px;
+        font-family: "Times New Roman", Times, serif;
+    }
+    
+    .img_resume{
+        border-radius:50%;
+        width: 220px;
+    }
+    .code_examples{
+        background-color: rgb(223, 224, 224);
+        padding:20px;"
+        
+    }
+     .footer-info{
+        width:800px;
+        background-color:#1c2833 ;
+        padding:10px;
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+     }
+    
+     
+  }
